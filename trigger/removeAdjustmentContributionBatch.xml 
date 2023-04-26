@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trigger>
+    <name>removeAdjustmentContributionBatch</name>
+    <userStory>As an authorized user, I want to be able to remove an adjustment contribution batch, so that I can manage the contribution data effectively.</userStory>
+    <acceptanceCriteria>
+        <endpoint>The removeBatch endpoint should be accessible through HTTP GET method.</endpoint>
+        <parameter>The endpoint should accept a parameter batchId of type Long, which is mandatory.</parameter>
+        <success>On successful removal of the batch with the given batchId, the API should return a JSON response with the following fields:
+        transactionStatus: A string indicating the status of the transaction. It should be set to SUCCESS.
+        transactionMessage: A string indicating the message for the transaction. It should be set to Batch [batchId] is deleted successfully!!.</success>
+        <noDataFound>If there are no contribution records found for the given batchId, the API should return a JSON response with the following fields:
+        transactionStatus: A string indicating the status of the transaction. It should be set to FAILURE.
+        transactionMessage: A string indicating the message for the transaction. It should be set to Batch Not Found.</noDataFound>
+        <exception>If there is an exception while processing the request, the API should return a JSON response with the following fields:
+        transactionStatus: A string indicating the status of the transaction. It should be set to FAILURE.
+        transactionMessage: A string indicating the message for the transaction. It should be set to Exception [exception message].</exception>
+    </acceptanceCriteria>
+    <definitionOfDone>
+        <codeImplemented>The code for the removeBatch endpoint should be implemented and tested successfully.</codeImplemented>
+        <documentation>The code should be well-documented, readable and maintainable.</documentation>
+        <codingPractices>The implementation should follow the best coding practices and coding standards for Java.</codingPractices>
+        <peerReview>The implementation should be reviewed by at least one peer developer and approved.</peerReview>
+        <testing>The implementation should be deployed on the production environment and tested thoroughly.</testing>
+    </definitionOfDone>
+</trigger>
