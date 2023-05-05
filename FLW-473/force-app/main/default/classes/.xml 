@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexClass xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>45.0</apiVersion>
+    <status>Active</status>
+    <userStory>Reopen the already settled claim based on Litigation</userStory>
+    <acceptanceCriteria>
+        <criteria>System should ask the reason for reopening the claim</criteria>
+        <criteria>System should allow to reopen the claim with below mention status RepudiationHoldEx-GratiaSettled</criteria>
+        <criteria>User should allow to fund the case so that settlement should happen with revise claim amount</criteria>
+        <criteria>User can change the claim amount based on court order</criteria>
+        <criteria>System should allow to capture the relevant document for claim settlement</criteria>
+        <criteria>System Should auto populate based on the search attributes of claim Details,Reception IDClaim NumberClaim StatusType of ClaimMember IDDate of DeathDate of EventPlace of EventCause of EventMaster Policy NumberMaster Policy StatusCustomer CodeMember StatusMember NameAgeProductVariantCategoryAgingRecepted ByLast contribution Paid DateLast contribution AmountNext Payment Due DateNext Payment Due Amount</criteria>
+        <criteria>System should give option to capture the claim recommendation</criteria>
+        <criteria>System should have bellow mention option in claim recommendation SettledRepudiationOn hold</criteria>
+        <criteria>System should have option to submit/save the claim recommendation</criteria>
+        <criteria>User should be able to view all previously received claim documents and also should be able to raise documents in case of requirement</criteria>
+    </acceptanceCriteria>
+</ApexClass>
