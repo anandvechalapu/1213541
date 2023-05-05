@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexClass xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>46.0</apiVersion>
+    <status>Active</status>
+    <description>Apex Class for Customer Access Point</description>
+    <userStory>As a Customer or Master Policy Holder, I want to have access to various functionalities in the system so that I can manage my policies and related services efficiently.</userStory>
+    <acceptanceCriteria>
+        <AcceptanceCriteria>The user should be able to accept the quotation provided by the insurer and proceed with the policy purchase process. The system should provide a clear and easy-to-understand process for the user to accept the quotation.</AcceptanceCriteria>
+        <AcceptanceCriteria>The user should be able to view the history of quotations received by them in the past. The history should include details such as the insurer's name, date of quotation, policy type, premium amount, and other relevant information.</AcceptanceCriteria>
+        <AcceptanceCriteria>The user should be able to download their policy bond and GST invoice from the system. The download process should be hassle-free and secure.</AcceptanceCriteria>
+        <AcceptanceCriteria>The system should allow the user to view their running statement and provide details such as the policy type, premium amount, and other relevant information.</AcceptanceCriteria>
+        <AcceptanceCriteria>The user should be able to add or delete members from their policy in an Excel format, which should be predefined. The user should be able to upload the Excel file in the system, and the changes should be reflected in the policy.</AcceptanceCriteria>
+        <AcceptanceCriteria>The user should be able to raise non-monetary policy service requests, such as a change in communication address or nomination details. The system should provide a clear process for the user to raise such requests.</AcceptanceCriteria>
+        <AcceptanceCriteria>The system should generate an AS-15 valuation report quarterly and make it available to the user.</AcceptanceCriteria>
+        <AcceptanceCriteria>The user should be able to request a policy conversion from the system, which should be processed within a reasonable time.</AcceptanceCriteria>
+        <AcceptanceCriteria>The user should be able to intimate claim(s) through the system. The system should allow the user to provide details such as the policy number, nature of claim, date of loss, and other relevant information.</AcceptanceCriteria>
+        <AcceptanceCriteria>The user should be able to upload proof of documents for the Deed of Variation, CIT, and Claim, etc. The system should provide clear guidelines on the documents required and the format in which they should be uploaded.</AcceptanceCriteria>
+    </acceptanceCriteria>
+</ApexClass>
